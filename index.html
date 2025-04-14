@@ -9,107 +9,204 @@
       content="Explore dezenas de variações da bebida favorita entre devs ao redor do mundo!"
     />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <span class="logo">BalleCoffee</span>
-        <ul>
+        <span class="brand">BalleCoffee</span>
+        <ul class="menu">
           <li><a>Home</a></li>
           <li><a>Receitas</a></li>
           <li><a>Novidades</a></li>
           <li><a>Melhores avaliadas</a></li>
         </ul>
-        <a>Github</a>
+        <a class="github">Github</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <header>
-          <span>Novidade</span>
-          <h1>Encontre a receita perfeita!</h1>
-          <hr />
-          <h2>
-            Explore dezenas de variações da bebida favorita entre devs ao redor
-            do mundo!
-          </h2>
-        </header>
-        <div>
-          <figure>
-            <img src="assets/img/hero-banner-1.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-2.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-3.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-4.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-5.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-6.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-7.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-8.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-9.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-10.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-11.png" alt="Imagens sobre cafe" />
-          </figure>
-          <figure>
-            <img src="assets/img/hero-banner-12.png" alt="Imagens sobre cafe" />
-          </figure>
+      <section class="principal">
+        <div class="hero">
+          <header class="hero-header">
+            <span class="spotlight brown">Novidade</span>
+            <h1>Encontre a receita perfeita!</h1>
+            <hr />
+            <h2 class="hero-subtitle">
+              Explore dezenas de variações da bebida favorita entre devs ao
+              redor do mundo!
+            </h2>
+          </header>
+          <div class="hero-images">
+            <figure>
+              <img
+                src="assets/img/hero-banner-1.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-2.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-3.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-4.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-5.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-6.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-7.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-8.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-9.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-10.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-11.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/img/hero-banner-12.png"
+                alt="Imagens sobre cafe"
+              />
+            </figure>
+          </div>
         </div>
       </section>
 
-      <section>
-        <button>
-          <img src="assets/img/button.png" alt="Foto de um botão" />
+      <section class="button-container">
+        <button type="button">
+          <img src="assets/img/chevrons-down.png" alt="Foto de um botão" />
         </button>
       </section>
 
-      <section>
-        <header>
-          <span>Receitas</span>
-          <h2>Confira as ultimas receitas</h2>
-          <p>Dê uma olhada nas receitas mais amadas!</p>
+      <section class="cookbook">
+        <header class="cookbook-header">
+          <span class="spotlight brown">Receitas</span>
+          <h2 class="cookbook-main-title">Confira as ultimas receitas</h2>
+          <p class="cookbook-main-subtitle">Dê uma olhada nas receitas mais amadas!</p>
         </header>
-        <div>
-          <div>
-            <header>
-              <div>
-                <span>Em Alta 🔥</span>
-                <h3>Cappuccino</h3>
+        <div class="cookbook-cards">
+
+          <div class="cookbook-cards-item">
+            <header class="cookbook-cards-header">
+              <div class="cookbook-cards-header-details">
+                <span class="spotlight yellow">Em Alta 🔥</span>
+                <h3 class="cookbook-title">Cappuccino</h3>
               </div>
-              <p>Extraordinário · 4/4</p>
+              <p class="cookbook-review">Extraordinário · 4/4</p>
             </header>
-            <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-            <div>
-                <img src="https://avatars.githubusercontent.com/u/15823158?v=4" alt="foto de um usuário">
-                <span>Angelo Lustosa</span>
+            <p class="cookbook-description">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+            <div class="cookbook-author">
+              <img
+                src="https://avatars.githubusercontent.com/u/15823158?v=4"
+                alt="foto de um usuário"
+              />
+              <span class="cookbook-author-name">Angelo Lustosa</span>
             </div>
           </div>
+
+          <div class="cookbook-cards-item">
+            <header class="cookbook-cards-header">
+              <div class="cookbook-cards-header-details">
+                <span class="spotlight yellow">Em Alta 🔥</span>
+                <h3 class="cookbook-title">Cappuccino</h3>
+              </div>
+              <p class="cookbook-review">Extraordinário · 4/4</p>
+            </header>
+            <p class="cookbook-description">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+            <div class="cookbook-author">
+              <img
+                src="https://avatars.githubusercontent.com/u/15823158?v=4"
+                alt="foto de um usuário"
+              />
+              <span class="cookbook-author-name">Angelo Lustosa</span>
+            </div>
+          </div>
+
+          <div class="cookbook-cards-item">
+            <header class="cookbook-cards-header">
+              <div class="cookbook-cards-header-details">
+                <span class="spotlight yellow">Em Alta 🔥</span>
+                <h3 class="cookbook-title">Cappuccino</h3>
+              </div>
+              <p class="cookbook-review">Extraordinário · 4/4</p>
+            </header>
+            <p class="cookbook-description">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+            <div class="cookbook-author">
+              <img
+                src="https://avatars.githubusercontent.com/u/15823158?v=4"
+                alt="foto de um usuário"
+              />
+              <span class="cookbook-author-name">Angelo Lustosa</span>
+            </div>
+          </div>
+
+          <div class="cookbook-cards-item">
+            <header class="cookbook-cards-header">
+              <div class="cookbook-cards-header-details">
+                <span class="spotlight yellow">Em Alta 🔥</span>
+                <h3 class="cookbook-title">Cappuccino</h3>
+              </div>
+              <p class="cookbook-review">Extraordinário · 4/4</p>
+            </header>
+            <p class="cookbook-description">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+            <div class="cookbook-author">
+              <img
+                src="https://avatars.githubusercontent.com/u/15823158?v=4"
+                alt="foto de um usuário"
+              />
+              <span class="cookbook-author-name">Angelo Lustosa</span>
+            </div>
+          </div>
+          
         </div>
       </section>
     </main>
 
     <footer>
-        <p>Copyright &lt;CODEFEE /&gt; 2025</p>
-        <P>Feito por David Wanderley</P>
+      <p class="footer-copy">Copyright &lt;CODEFEE /&gt; 2025</p>
+      <p class="footer-author">Feito por David Wanderley</p>
     </footer>
   </body>
 </html>
